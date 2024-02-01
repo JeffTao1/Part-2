@@ -11,6 +11,8 @@ public class Planemove : MonoBehaviour
     Rigidbody2D rb;
     Vector2 currentPosition;
     public float speed = 1;
+    public AnimationCurve landing;
+    float ltimer = 0;
     private void Start()
     {
         line = GetComponent<LineRenderer>();
@@ -34,6 +36,18 @@ public class Planemove : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKey(KeyCode.Space)) {
+
+            ltimer += 0.5f * Time.deltaTime;
+            float interpolation = landing.Evaluate(ltimer);
+            if (transform.localScale.z < 0.1f) 
+            {
+                Destroy(gameObject);
+            }
+            transform.localScale = Vector3.Lerp(Vector3.one, Vector3.zero, interpolation);
+        
+        }
+
         line.SetPosition(0, transform.position);
         if (points.Count>0)
         {
@@ -54,7 +68,6 @@ public class Planemove : MonoBehaviour
     private void OnMouseDown()
     {
         points = new List<Vector2>();
-
         line.positionCount = 1;
         line.SetPosition(0, transform.position);
     }
