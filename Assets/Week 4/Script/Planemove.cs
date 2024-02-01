@@ -10,7 +10,7 @@ public class Planemove : MonoBehaviour
     LineRenderer line;
     Rigidbody2D rb;
     Vector2 currentPosition;
-    public float speed = 1;
+    public float speed = Random.Range(1f,3f);
     public AnimationCurve landing;
     float ltimer = 0;
     private void Start()
@@ -19,6 +19,11 @@ public class Planemove : MonoBehaviour
         line.positionCount = 1;
         line.SetPosition(0, transform.position);
         rb = GetComponent<Rigidbody2D>();
+
+
+
+
+
     }
 
     private void FixedUpdate()
