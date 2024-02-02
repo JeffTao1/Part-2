@@ -13,15 +13,24 @@ public class Planemove : MonoBehaviour
     public float speed = Random.Range(1f,3f);
     public AnimationCurve landing;
     float ltimer = 0;
+    public Color mycolor1 = Color.white;
+    public Color mycolor2 = Color.red;
+    SpriteRenderer spriteRenderer;
+    public float redline = 2;
+
 
 
 
     private void Start()
     {
+
         line = GetComponent<LineRenderer>();
         line.positionCount = 1;
         line.SetPosition(0, transform.position);
         rb = GetComponent<Rigidbody2D>();
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.color = mycolor1;
 
 
 
@@ -95,4 +104,32 @@ public class Planemove : MonoBehaviour
         }
 
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("too close");
+        spriteRenderer.color = mycolor2;
+        
+
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        float distance = Vector3.Distance(transform.position, collision.transform.position);
+        if (distance < redline)
+        {
+            Destroy(gameObject);
+
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        spriteRenderer.color = mycolor1;
+
+       
+
+
+
+    }
+
 }
