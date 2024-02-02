@@ -13,6 +13,9 @@ public class Planemove : MonoBehaviour
     public float speed = Random.Range(1f,3f);
     public AnimationCurve landing;
     float ltimer = 0;
+
+
+
     private void Start()
     {
         line = GetComponent<LineRenderer>();
@@ -41,6 +44,9 @@ public class Planemove : MonoBehaviour
 
     private void Update()
     {
+
+
+        
         if (Input.GetKey(KeyCode.Space)) {
 
             ltimer += 0.5f * Time.deltaTime;

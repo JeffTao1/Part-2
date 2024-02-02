@@ -315,3 +315,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  array:
+  - {fileID: 1200944417162123852, guid: 3ebaefad77edf704f9167f3c148a7787, type: 3}
+  - {fileID: 1880270160608181274, guid: e5507bfa39c57694784098f8be291a2e, type: 3}
+  - {fileID: 3786354141423103266, guid: 3b7d1066193868843be35c6626089e28, type: 3}
+  - {fileID: 6071078632950612228, guid: a8bcf2cdb064471479ecfed01fbd0e86, type: 3}
