@@ -10,7 +10,7 @@ public class Planemove : MonoBehaviour
     LineRenderer line;
     Rigidbody2D rb;
     Vector2 currentPosition;
-    public float speed = Random.Range(1f,3f);
+     float speed ;
     public AnimationCurve landing;
     float ltimer = 0;
     public Color mycolor1 = Color.white;
@@ -23,6 +23,7 @@ public class Planemove : MonoBehaviour
 
     private void Start()
     {
+        speed = Random.Range(1f, 3f);
 
         line = GetComponent<LineRenderer>();
         line.positionCount = 1;
