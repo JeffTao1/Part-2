@@ -12,6 +12,7 @@ public class Knight : MonoBehaviour
     bool click = false;
     int health;
     public int maxhealth = 5;
+    bool isdied;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class Knight : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(isdied) return;
         movement = destination - (Vector2)transform.position;
         if (movement.magnitude < 0.1) 
         { 
@@ -53,16 +55,18 @@ public class Knight : MonoBehaviour
     {
         click = false;
     }
-    void takeDamge(int damge)
+    public void takeDamge(int damge)
     {
         health -= damge;
         health = Mathf.Clamp(health, 0, maxhealth);
         if(health == 0)
         {
+            isdied = true;
             animator.SetTrigger("Death");
         }
         else
         {
+            isdied= false;
             animator.SetTrigger("TakeDamage");
         }
 
