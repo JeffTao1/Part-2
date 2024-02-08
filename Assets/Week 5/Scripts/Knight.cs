@@ -10,9 +10,10 @@ public class Knight : MonoBehaviour
     Rigidbody2D rb;
     Animator animator;
     bool click = false;
-    int health;
+    public int health;
     public int maxhealth = 5;
-    bool isdied;
+    bool isdied = false;
+    public Healthbar healthbar;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,7 @@ public class Knight : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(isdied) return;
+        if (isdied) return;
         movement = destination - (Vector2)transform.position;
         if (movement.magnitude < 0.1) 
         { 
@@ -36,6 +37,7 @@ public class Knight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isdied) return;
         if (Input.GetMouseButtonDown(0) && !click)
         {
 
@@ -48,14 +50,16 @@ public class Knight : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        if (isdied) return;
         click = true;
-        takeDamge(1);
+
+        SendMessage("TakeDamge", 1);
     }
     private void OnMouseUp()
     {
         click = false;
     }
-    public void takeDamge(int damge)
+    public void TakeDamge(int damge)
     {
         health -= damge;
         health = Mathf.Clamp(health, 0, maxhealth);
