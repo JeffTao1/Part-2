@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Knight : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class Knight : MonoBehaviour
     public int maxhealth = 5;
     bool isdied = false;
     public Healthbar healthbar;
+   
+    
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +25,14 @@ public class Knight : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();   
         animator = GetComponent<Animator>();
         health = maxhealth;
+        health = PlayerPrefs.GetInt("TakeDamage", maxhealth);
+        SendMessage("healcheck", health);
+        if (health == PlayerPrefs.GetInt("TakeDamge", 0))
+        {
+            isdied = true;
+
+            animator.SetTrigger("Death");
+        }
     }
 
     private void FixedUpdate()
@@ -78,6 +89,10 @@ public class Knight : MonoBehaviour
             isdied= false;
             animator.SetTrigger("TakeDamage");
         }
+            PlayerPrefs.SetInt("TakeDamage", health);
+        
+
 
     }
+ 
 }
