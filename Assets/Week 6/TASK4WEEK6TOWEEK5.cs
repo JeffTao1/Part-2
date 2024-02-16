@@ -15,7 +15,7 @@ public class TASK4WEEK6TOWEEK5 : MonoBehaviour
     public void sixteen9() 
     {
 
-        Screen.SetResolution(1920, 1080, false);
+        Screen.SetResolution(1920, 1080, true);
     
     
     }
