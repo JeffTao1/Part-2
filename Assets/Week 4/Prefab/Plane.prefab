@@ -282,7 +282,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points: []
   newPositionTHreshold: 0.2
-  speed: 1
   landing:
     serializedVersion: 2
     m_Curve:
@@ -296,10 +295,19 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.38969964
-      value: 0.7612302
-      inSlope: 1.2652502
-      outSlope: 1.2652502
+      time: 0.015990973
+      value: 0.72186184
+      inSlope: 1.306982
+      outSlope: 1.306982
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6086442
+      value: 0.24057597
+      inSlope: 0.01435005
+      outSlope: 0.01435005
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -307,8 +315,8 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: 2
+      outSlope: 2
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
