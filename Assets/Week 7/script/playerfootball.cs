@@ -3,6 +3,7 @@ using UnityEngine.EventSystems;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Experimental.GraphView;
 
 public class playerfootball : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class playerfootball : MonoBehaviour
     public Color colorn ;
     public Color colorr ;
     SpriteRenderer spriteRenderer;
+    public Rigidbody2D rb;
+    public float speed;
 
     
 
@@ -45,4 +48,11 @@ public class playerfootball : MonoBehaviour
         
     
     }
+    public void Move(Vector2 direction)
+    {
+        rb.AddForce(direction * speed);
+    } 
+
+
+
 }
