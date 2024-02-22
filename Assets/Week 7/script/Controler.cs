@@ -3,14 +3,19 @@ using UnityEngine.EventSystems;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Controler : MonoBehaviour
 {
+    public TextMeshProUGUI text; 
     public Slider chargeSlider;
     float chargeValue;
     public float maxcharge = 1;
     Vector2 direction;
+  
     public static playerfootball Selectedplayer { get; private set; }
+    public static float score = 0;
     public static void SetSelectedPlayer(playerfootball player) { 
     
     
@@ -30,6 +35,8 @@ public class Controler : MonoBehaviour
             chargeValue = 0;
             chargeSlider.value = chargeValue;
         }
+
+        
     }
     private void Update()
     {
@@ -50,6 +57,8 @@ public class Controler : MonoBehaviour
         {
             direction = ((Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)Selectedplayer.transform.position).normalized * chargeValue;
         }
+        text.text = score.ToString();
+
     }
 
 
