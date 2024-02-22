@@ -11,14 +11,17 @@ public class playerfootball : MonoBehaviour
     public Color colorr ;
     SpriteRenderer spriteRenderer;
 
+    
+
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         Selected(false);
+
     }
     private void OnMouseDown()
     {
-        Selected(true);
+        Controler.SetSelectedPlayer(this);
     }
     public void Selected(bool isSelected) 
     {
