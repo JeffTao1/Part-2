@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: 1b88c2b0bc73fe645a7ae402f8ad6c17
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: storybutt1112_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 605
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2145e6b1b7572e845847220914f99f0a
+      internalID: -1788077767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_26
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 572
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fa92c7d7868e24889dba8af6b38aac
+      internalID: -1792389237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_27
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 572
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f42de774cdc0dc419318e1cfcbecc9d
+      internalID: 879198447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_28
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 572
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebaa1f15bfeec647ae0b8af84a7a253
+      internalID: -1427268971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_29
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 572
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15341682d650a914a973bf76d7c11186
+      internalID: -1691813409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_30
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 572
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4408b0d401df31a499e3aff59a6fd3b5
+      internalID: 1096315136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_31
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 571
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a68734b6806c44081abe58d2165c29
+      internalID: -163082214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 538
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abedcbd878e7b1e49be172735853cb41
+      internalID: 84380973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_39
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 538
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c896e39b004074cb787d73145bff82
+      internalID: -784980323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_96
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 406
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243f875c23eb69d4189db1b4db89378f
+      internalID: 877071368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_97
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 406
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21012a6536151f44b1f0d55e0449e70
+      internalID: -1458022883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storybutt1112_98
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 406
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f013e598de91c4bb4fc58269bb79bd
+      internalID: 2009451915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      storybutt1112_0: -851410609
+      storybutt1112_1: -451271464
+      storybutt1112_10: -1257349252
+      storybutt1112_100: 1738744007
+      storybutt1112_101: 2127833453
+      storybutt1112_102: -1931929372
+      storybutt1112_103: -1709470234
+      storybutt1112_104: 1560425237
+      storybutt1112_105: -488194835
+      storybutt1112_106: -328442720
+      storybutt1112_107: 113153223
+      storybutt1112_108: -215763568
+      storybutt1112_109: 24478926
+      storybutt1112_11: -2051835049
+      storybutt1112_110: 690483214
+      storybutt1112_111: -233176627
+      storybutt1112_112: -598287534
+      storybutt1112_113: -1231924288
+      storybutt1112_114: 5793028
+      storybutt1112_115: -206971331
+      storybutt1112_116: 386830402
+      storybutt1112_117: -1884837026
+      storybutt1112_118: 500320719
+      storybutt1112_119: -1099793843
+      storybutt1112_12: 407064331
+      storybutt1112_120: 302162122
+      storybutt1112_121: -394751582
+      storybutt1112_122: -1156506281
+      storybutt1112_123: 1053825125
+      storybutt1112_124: -508437542
+      storybutt1112_125: 1365210595
+      storybutt1112_126: -1699741154
+      storybutt1112_127: 390372512
+      storybutt1112_128: 1755457219
+      storybutt1112_129: 2079357296
+      storybutt1112_13: 69446168
+      storybutt1112_130: 153156631
+      storybutt1112_14: -1788077767
+      storybutt1112_15: 1651586524
+      storybutt1112_16: -1322942898
+      storybutt1112_17: -2079520368
+      storybutt1112_18: -2132391533
+      storybutt1112_19: -622683645
+      storybutt1112_2: 2142891967
+      storybutt1112_20: 674837706
+      storybutt1112_21: 729728371
+      storybutt1112_22: -454566642
+      storybutt1112_23: -123563707
+      storybutt1112_24: -2043989319
+      storybutt1112_25: -1459725242
+      storybutt1112_26: -1792389237
+      storybutt1112_27: 879198447
+      storybutt1112_28: -1427268971
+      storybutt1112_29: -1691813409
+      storybutt1112_3: 1647542701
+      storybutt1112_30: 1096315136
+      storybutt1112_31: -163082214
+      storybutt1112_32: -988303297
+      storybutt1112_33: 1930370481
+      storybutt1112_34: 379746996
+      storybutt1112_35: -713454861
+      storybutt1112_36: 657834336
+      storybutt1112_37: -1565839495
+      storybutt1112_38: 84380973
+      storybutt1112_39: -784980323
+      storybutt1112_4: 2074109161
+      storybutt1112_40: -1380486476
+      storybutt1112_41: -511997857
+      storybutt1112_42: 1803267173
+      storybutt1112_43: 157035565
+      storybutt1112_44: 1755524193
+      storybutt1112_45: -1251564525
+      storybutt1112_46: -1628699549
+      storybutt1112_47: -1714520915
+      storybutt1112_48: 767744469
+      storybutt1112_49: 2130454820
+      storybutt1112_5: 2120882510
+      storybutt1112_50: 272185628
+      storybutt1112_51: 1589657168
+      storybutt1112_52: -1706931496
+      storybutt1112_53: 551583220
+      storybutt1112_54: 2144465193
+      storybutt1112_55: 1365939733
+      storybutt1112_56: -1382420540
+      storybutt1112_57: 937619176
+      storybutt1112_58: 1385866492
+      storybutt1112_59: 720644576
+      storybutt1112_6: -1786051279
+      storybutt1112_60: -673694096
+      storybutt1112_61: -1348593625
+      storybutt1112_62: 258186498
+      storybutt1112_63: 1686280579
+      storybutt1112_64: -1068938267
+      storybutt1112_65: -1687340412
+      storybutt1112_66: 748986497
+      storybutt1112_67: 726967237
+      storybutt1112_68: -1862179499
+      storybutt1112_69: 1952346033
+      storybutt1112_7: -788746358
+      storybutt1112_70: 2007254449
+      storybutt1112_71: 877732531
+      storybutt1112_72: 589974885
+      storybutt1112_73: 248442566
+      storybutt1112_74: 360159928
+      storybutt1112_75: -274036166
+      storybutt1112_76: -146392845
+      storybutt1112_77: -1880357215
+      storybutt1112_78: 95939122
+      storybutt1112_79: 1354774093
+      storybutt1112_8: -399110213
+      storybutt1112_80: -734441879
+      storybutt1112_81: -2080905851
+      storybutt1112_82: -686094664
+      storybutt1112_83: -811925905
+      storybutt1112_84: -1577715236
+      storybutt1112_85: 556210089
+      storybutt1112_86: -774570249
+      storybutt1112_87: 914804994
+      storybutt1112_88: -1670114221
+      storybutt1112_89: -314084783
+      storybutt1112_9: -681039968
+      storybutt1112_90: 1176206970
+      storybutt1112_91: 1531402015
+      storybutt1112_92: 1806105509
+      storybutt1112_93: -1337892599
+      storybutt1112_94: -626964481
+      storybutt1112_95: -148684441
+      storybutt1112_96: 877071368
+      storybutt1112_97: -1458022883
+      storybutt1112_98: 2009451915
+      storybutt1112_99: -2133725330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

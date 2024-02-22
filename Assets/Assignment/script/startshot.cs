@@ -17,8 +17,9 @@ public class startshot : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int nextScenceIndex = (currentSceneIndex + 1) % SceneManager.sceneCountInBuildSettings;
+        int nextScenceIndex = (currentSceneIndex + 1) % SceneManager.sceneCountInBuildSettings;// base on the scene now and plus one scene to the play scene
         SceneManager.LoadScene(nextScenceIndex);
         Destroy(gameObject);
     }
+    
 }
